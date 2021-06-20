@@ -36,6 +36,6 @@
 
 ## Разработчики
 
-Капралова Анастасия @stasysp
-Вадим Альперович @VirtualRoyalty
-Кривоносов Михаил @mike_live
+[Капралова Анастасия](https://www.github.com/stasysp)
+[Вадим Альперович](https://www.github.com/VirtualRoyalty)
+[Кривоносов Михаил](https://www.github.com/mike_live)
