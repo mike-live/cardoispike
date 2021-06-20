@@ -37,5 +37,10 @@
 ## Разработчики
 
 [Капралова Анастасия](https://www.github.com/stasysp)
+Технический директор GorkyAI
+
 [Вадим Альперович](https://www.github.com/VirtualRoyalty)
+Ведущий инженер-исследователь GorkyAI
+
 [Кривоносов Михаил](https://www.github.com/mike_live)
+М.н.с. кафедры нейротехнологий ИББМ ННГУ им. Н.И.Лобачевского
