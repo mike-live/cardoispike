@@ -8,7 +8,6 @@
 git clone https://github.com/mike-live/cardoispike.git
 cd cardoispike/main
 python run.py --data_path '..data/test.csv' --output_path 'output/12.05.21/'
-
 ```
 
 ```..data/test.csv``` - должен иметь следующий формат:
