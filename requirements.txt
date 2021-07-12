@@ -1,0 +1,4 @@
+numpy==1.18.5
+pandas==1.1.2
+CatBoost==0.26
+tqdm==4.44.1
