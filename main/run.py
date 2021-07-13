@@ -62,7 +62,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--data_path', required=True, type=str, help='Path to R-R intervals data .csv file')
-    parser.add_argument('--output_path', required=True, type=str, help='Path to output .csv file')
+    parser.add_argument('--output_path', required=False, default='../', type=str, help='Path to output .csv file')
+    parser.add_argument('--output_filename', required=False, default='output.csv', type=str, help='Path to output .csv file')
     parser.add_argument('--weights_path', required=False, type=str, default=default_weights_path, help='CatBoost model weights path')
     parser.add_argument('--pca_path', required=False, type=str, default=default_pca_path, help='PCA saved coefficients path')
     parser.add_argument('--verbose', required=False, type=bool, default=True, help='Verbosity switcher')
@@ -85,7 +86,7 @@ if __name__ == '__main__':
     if not os.path.exists(args.output_path):
         os.makedirs(args.output_path)
 
-    output_filename = os.path.join(args.output_path, 'output.csv')
+    output_filename = os.path.join(args.output_path, args.output_filename)
     output_df.to_csv(output_filename)
 
     if args.verbose:

@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 git clone https://github.com/mike-live/cardoispike.git
 cd cardoispike/main
-python run.py --data_path '..data/test.csv' --output_path 'output/'
+python run.py --data_path '..data/test.csv' --output_path 'output/' --output_filename "output.csv"
 ```
 
 ```..data/test.csv``` - должен иметь следующий формат:
