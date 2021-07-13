@@ -57,15 +57,11 @@ python run.py --data_path '..data/test.csv' --output_path 'output/' --output_fil
 2. Jupyter notebook
 
 ### Пакеты python
-1. seaborn
+1. numpy
 2. pandas
-3. numpy
-4. sci-kit learn
-5. matplotlib
-6. catboost
-7. tqdm
-8. tensorflow
-9. tensorflow_probability
+3. sklearn
+4. catboost
+5. tqdm
 
 ## Разработчики
 
