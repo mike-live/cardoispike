@@ -39,9 +39,11 @@ def load_all(data_path, model_path, pca_path, verbose=True):
 
 
 def inference(df, model, pca_transformer, target_column='y') -> numpy.ndarray:
-
+    
+    df[target_column] = 0
+    
     for _id in tqdm(df.id.unique()):
-        df[target_column] = 0
+        
         time, x_data, x, y = preprocess_df(df, _id, chunk_len=CHUNK_LEN)
         pca = pca_transformer.transform(x_data[:,:, 0])
         x_data = x_data.reshape((x_data.shape[0], x_data.shape[1] * x_data.shape[2] ))
